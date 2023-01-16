@@ -1,0 +1,41 @@
+input{
+    padding: 8px;
+    height: 20px;
+    width: 40%;
+    border : 0.5px solid black;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+form{
+    display: flex  ;
+    flex-direction:column;
+    padding: 10px;  
+    overflow: auto;
+}
+
+.submit-btn{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(203, 29, 29);
+    color: white;
+}
+
+.checkout-form{
+    height: 20rem;
+    overflow: auto;
+}
+.checkout-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-field label{
+    margin:0
+}
+
+.checkout-button-container{
+    display: flex;
+    gap: 2%;
+}
